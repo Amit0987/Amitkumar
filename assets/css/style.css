@@ -249,6 +249,25 @@ body{
   .resume .resume-wrap #tabs ul li a{text-decoration: none; font-size: 18px;font-family: 'poppins-medium';text-transform: uppercase; color: #333; transition: all 0.7s;}
 
 
+  /* skills ui design :start   */
+
+
+  .educationwrap{position: relative;width: 100%;}
+  .educationwrap .coursenwrap {display: flex;justify-content: center;padding-top: 40px;}
+  .educationwrap .coursenwrap .coursenameduration{width: 30%;text-align: left;}
+  .educationwrap .coursenwrap .coursenameduration .coursename{position: relative;width: 100%;font-size: 22px;font-family: 'poppins-medium';padding-left: 30px;}
+  .educationwrap .coursenwrap .coursenameduration .coursename::after{content: '';display: block;width: 14px;height: 14px;background: #f9004d;position: absolute; top: 10px; left: 0px;border-radius: 10px;}
+  .educationwrap .coursenwrap .coursenameduration .durationtime{display: block;font-family: 'poppins-regular';padding-top: 16px;color: #f9004d ;padding-left: 30px;}
+  .educationwrap .coursenwrap .coursedetails{width: 70%;text-align: left;padding: 0px 40px;}
+  .educationwrap .coursenwrap .coursedetails h4{font-size: 24px;font-family: 'poppins-light';}
+  .educationwrap .coursenwrap .coursedetails p{font-size: 18px;font-family: 'poppins-light';padding-top: 16px;}
+  /* .educationwrap .coursenwrap .coursenameduration .hs::after{left: 150px;}
+  .educationwrap .coursenwrap .coursenameduration .tp::after{left: 50px;} */
+
+
+  /* skills ui design :end   */
+
+
 
   /* skills ui design :start   */
   .education-wrap{width: 100%;position: relative;display: flex; justify-content: space-between;gap: 60px;}
@@ -272,11 +291,12 @@ body{
   .portfolio .portfoliowrap .headdetails{width: 100%;font-size: 18px;color: #f9004d;font-family: 'poppins-medium';text-transform: uppercase;letter-spacing: 5px;text-align: center;display: block;}
   .portfolio .portfoliowrap .subheading{font-size: 50px;font-family: 'poppins-medium';padding-bottom: 20px;transition: all 0.7s;font-weight: 600;color: #3c3e41;padding: 10px 0px 30px;display: block;text-align: center;letter-spacing: 3px;}
   .portfolio .portfoliowrap .portfoliocardwrap{display: grid; grid-template-columns: repeat(3,1fr);gap: 30px;}
-  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard{display: block;border-radius: 20px;box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;padding: 26px;height: 500px;}
+  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard{display: block;border-radius: 20px;box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;padding: 26px;height: 450px;cursor: pointer;transition: all 1s;text-decoration: none;}
   .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard img{width: 100%;height: auto;border-radius: 20px;}
-  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .portcardtitle{display: block;width: 100%;font-size: 14px;color: #f9004d;font-family: 'poppins-medium';text-transform: uppercase;padding: 14px 0px 5px;}
-  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .portcardhead{display: block;font-size: 24px;font-family: 'poppins-medium';padding-bottom: 20px;transition: all 0.7s;font-weight: 500;color: #222;}
-  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .arrow-icon-port{width: 50px;display: block;}
+  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .portcardtitle{display: block;width: 100%;font-size: 14px;color: #f9004d;font-family: 'poppins-medium';text-transform: uppercase;padding: 14px 0px 10px; text-decoration: none;}
+  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .portcardhead{display: block;font-size: 20px;font-family: 'poppins-medium';padding-bottom: 20px;transition: all 0.7s;font-weight: 500;color: #222;text-decoration: none;}
+  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .arrow-icon-port{width: 40px;visibility: hidden;}
+  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard:hover .arrow-icon-port{visibility: visible;}
 
   /* portfolio setion end */
 
@@ -362,6 +382,9 @@ body{
   .education-wrap .design-skills{margin-top: 60px;}
   .contact .contactwrap .contactsection{display: block;}
   .contact .contactwrap .contactsection .contactasidecard{margin-bottom: 40px;}
+  .educationwrap .coursenwrap{display: block;}
+  .educationwrap .coursenwrap .coursenameduration{width: 100%;padding: 0px 10px 30px;}
+  .educationwrap .coursenwrap .coursedetails{width: 100%;}
   }
 
   @media screen and (max-width:600px) {
@@ -427,6 +450,12 @@ body{
     opacity: 0;
   }
 }
+
+
+
+
+
+
 
   
   
