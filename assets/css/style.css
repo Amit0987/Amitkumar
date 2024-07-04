@@ -287,7 +287,7 @@ body{background-color: #ECF0F3;width: 100%;position: relative;}
   .portfolio .portfoliowrap .headdetails{width: 100%;font-size: 18px;color: #f9004d;font-family: 'poppins-medium';text-transform: uppercase;letter-spacing: 5px;text-align: center;display: block;}
   .portfolio .portfoliowrap .subheading{font-size: 50px;font-family: 'poppins-medium';padding-bottom: 20px;transition: all 0.7s;font-weight: 600;color: #3c3e41;padding: 10px 0px 30px;display: block;text-align: center;letter-spacing: 3px;}
   .portfolio .portfoliowrap .portfoliocardwrap{display: grid; grid-template-columns: repeat(3,1fr);gap: 30px;}
-  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard{display: block;border-radius: 20px;box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;padding: 26px;height: 450px;cursor: pointer;transition: all 1s;text-decoration: none;}
+  .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard{display: block;border-radius: 20px;box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;padding: 26px;height: 500px;cursor: pointer;transition: all 1s;text-decoration: none;}
   .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard img{width: 100%;height: auto;border-radius: 20px;}
   .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .portcardtitle{display: block;width: 100%;font-size: 14px;color: #f9004d;font-family: 'poppins-medium';text-transform: uppercase;padding: 14px 0px 10px; text-decoration: none;}
   .portfolio .portfoliowrap .portfoliocardwrap .portfoliocard .portcardhead{display: block;font-size: 20px;font-family: 'poppins-medium';padding-bottom: 20px;transition: all 0.7s;font-weight: 500;color: #222;text-decoration: none;}
