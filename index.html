@@ -20,7 +20,7 @@
       <div class="txt">Loading...</div>
   </div>
 
-  
+ <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>-->
 
     
 
@@ -32,13 +32,13 @@
         <!-- nav List -->
         <ul class="navList">
           <li class="navLi">
-            <a href="javascript:void(0)" data-scroll="home">Home</a>
+            <a href="#top" class="scroll" >Home</a>
           </li>
-          <li class="navLi"><a href="#">features</a></li>
-          <li class="navLi"><a href="#">Resume</a></li>
-          <li class="navLi"><a href="#">Portfolio</a></li>
-          <li class="navLi"><a href="#">Blog</a></li>
-          <li class="navLi"><a href="#">contact</a></li>
+          <li class="navLi"><a class="scroll" href="#features">features</a></li>
+          <li class="navLi"><a class="scroll" href="#resume">Resume</a></li>
+          <li class="navLi"><a class="scroll" href="#portfolio">Portfolio</a></li>
+          <li class="navLi"><a class="scroll" href="#blog">Blog</a></li>
+          <!--<li class="navLi"><a href="#">contact</a></li>-->
           <li class="navLi custombtn"><a href="./assets/image/resume.pdf" target="_blank">Visit My Resume</a></li>
         </ul>
         <!-- nav Button -->
@@ -50,7 +50,7 @@
       </nav>
     </header>
 
-    <div class="banner">
+    <div class="banner" id="top">
       <div class="container">
         <div class="bannerwrap">
 
@@ -65,19 +65,35 @@
 
             <div class="btnwrap">
             <a href="./assets/image/resume.pdf" download class="btn">Download Resume</a>
-            <!--<a class="btn">Contact Me</a>-->
+            <a class="btn" href="https://forms.gle/RDXQVgUA8dY1o4tL8" target="_blank">Contact Me</a>
 
             </div>
 
             <div class="skilss-find-wrap">
               <div class="skillswrap">
-                <span class="subhead">Find With Me</span>
+                <span class="subhead">Contact Me on</span>
               <div class="best-skills skills">
                 <a href="https://www.linkedin.com/in/amit-kumar-5540a3223/" target="_blank">
                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></span>
                 </a>
-                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></span>
-                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></span>
+                <a href="mailto: ak71901@gmail.com" target="_blank">
+                <span>
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                  -->
+
+                  <svg width="30" height="30" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><path class="icontp" stroke-linejoin="round" stroke-width="12" d="M22 57.265V142c0 5.523 4.477 10 10 10h24V95.056l40 30.278 40-30.278V152h24c5.523 0 10-4.477 10-10V57.265c0-13.233-15.15-20.746-25.684-12.736L96 81.265 47.684 44.53C37.15 36.519 22 44.032 22 57.265Z"/></svg>
+                
+                </span>
+              </a>
+
+              <a href="tel: +91 7999902865" target="_blank">
+                <span>
+                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>-->
+
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="icontp" stroke-width="2" d="M9 16C2.814 9.813 3.11 5.134 5.94 3.012l.627-.467a1.483 1.483 0 0 1 2.1.353l1.579 2.272a1.5 1.5 0 0 1-.25 1.99L8.476 8.474c-.38.329-.566.828-.395 1.301.316.88 1.083 2.433 2.897 4.246 1.814 1.814 3.366 2.581 4.246 2.898.474.17.973-.015 1.302-.396l1.314-1.518a1.5 1.5 0 0 1 1.99-.25l2.276 1.58a1.48 1.48 0 0 1 .354 2.096l-.47.633C19.869 21.892 15.188 22.187 9 16z"/></svg>
+                </span>
+              </a>
+
               </div>
             </div>
 
@@ -99,7 +115,7 @@
     </div>
 
 
-    <div class="features">
+    <div class="features" id="features">
       <div class="container">
         <div class="features-wrap">
           <h2>features</h2>
@@ -171,7 +187,7 @@
       </div>
     </div>
 
-    <div class="resume">
+    <div class="resume" id="resume">
       <div class="container">
         <div class="resume-wrap">
 
@@ -180,9 +196,11 @@
 
           <div id="tabs">
             <ul>
-              <li><a href="#tabs-1">education</a></li>
-              <li><a href="#tabs-2">professional skills</a></li>
               <li><a href="#tabs-3">experiences</a></li>
+              <li><a href="#tabs-2">professional skills</a></li>
+              <li><a href="#tabs-1">education</a></li>
+              
+              
             </ul>
             <div id="tabs-1">
               
@@ -376,7 +394,7 @@
     </div>
 
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="container">
         <div class="portfoliowrap">
           <span class="headdetails"> VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
@@ -434,7 +452,7 @@
 
 
 
-    <div class="portfolio">
+    <div class="portfolio" id="blog">
       <div class="container">
         <div class="portfoliowrap">
           <span class="headdetails"> VISIT MY BLOG AND KEEP YOUR FEEDBACK</span>
@@ -471,7 +489,7 @@
 
 
 
-    <div class="contact">
+    <!-- <div class="contact">
       <div class="container">
         <div class="contactwrap">
           <span class="headdetails"> CONTACT</span>
@@ -500,8 +518,8 @@
                 </div>
 
             </div>
-            <div class="contactformwrap">
-              <div class="formsection">
+            <div class="contactformwrap">-->
+               <!-- <div class="formsection">
                 <span class="msgcaution">* All Fields are manditory</span>
                 <form id="contactfrom">
                   <div class="forstname">
@@ -522,14 +540,20 @@
                   <textarea id="messageinfo" required></textarea >
                 </div>
 
-                <div class="sendmsgbtn">
+                <div class="sendmsgbtn">-->
                   <!--<button type="button" onclick="sendmail()" class="submitbtn" >Send Message</button>-->
-                  <input type="submit" onclick="sendmail()" class="submitbtn" value="Send Message">
+                 <!-- <input type="submit" class="submitbtn" value="Send Message">
                 </div>
 
 
                 </form>
-              </div>
+
+              </div>-->
+
+
+              <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQzAVpFH8tquHSNppa0ie4QZBubmp-FtAnRYFLEpCsMROYZg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;height:100%">Loading…</iframe>
+
+
             </div>
            </div>
 
@@ -539,7 +563,7 @@
 
         </div>
       </div>
-    </div>
+    </div>-->
 
 
 
@@ -550,6 +574,61 @@
             <img src="./assets/image/Amit_image.png">
           </div>
           <div class="footername">Amit Kumar</div>
+
+          <p class="ftext">I am available for freelance work. Connect with me via and call in to my account.</p>
+          <div class="contactwrap">
+          <span class="contactmobileno"> <a href="tel:7999902865"> (+91) 7999902865</a></span>
+          <span class="contactemail"> <a href="mailto:ak71901@gmail.com">ak71901@gmail.com</a></span>
+          </div>
+
+          <div class="iconwrap">
+
+            <a href="#">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 552.77 552.77" xml:space="preserve">
+                <g>
+                  <g>
+                    <path d="M17.95,528.854h71.861c9.914,0,17.95-8.037,17.95-17.951V196.8c0-9.915-8.036-17.95-17.95-17.95H17.95
+                      C8.035,178.85,0,186.885,0,196.8v314.103C0,520.816,8.035,528.854,17.95,528.854z"/>
+                    <path d="M17.95,123.629h71.861c9.914,0,17.95-8.036,17.95-17.95V41.866c0-9.914-8.036-17.95-17.95-17.95H17.95
+                      C8.035,23.916,0,31.952,0,41.866v63.813C0,115.593,8.035,123.629,17.95,123.629z"/>
+                    <path d="M525.732,215.282c-10.098-13.292-24.988-24.223-44.676-32.791c-19.688-8.562-41.42-12.846-65.197-12.846
+                      c-48.268,0-89.168,18.421-122.699,55.27c-6.672,7.332-11.523,5.729-11.523-4.186V196.8c0-9.915-8.037-17.95-17.951-17.95h-64.192
+                      c-9.915,0-17.95,8.035-17.95,17.95v314.103c0,9.914,8.036,17.951,17.95,17.951h71.861c9.915,0,17.95-8.037,17.95-17.951V401.666
+                      c0-45.508,2.748-76.701,8.244-93.574c5.494-16.873,15.66-30.422,30.488-40.649c14.83-10.227,31.574-15.343,50.24-15.343
+                      c14.572,0,27.037,3.58,37.393,10.741c10.355,7.16,17.834,17.19,22.436,30.104c4.604,12.912,6.904,41.354,6.904,85.33v132.627
+                      c0,9.914,8.035,17.951,17.949,17.951h71.861c9.914,0,17.949-8.037,17.949-17.951V333.02c0-31.445-1.982-55.607-5.941-72.48
+                      S535.836,228.581,525.732,215.282z"/>
+                  </g>
+                </g>
+                </svg>
+            </a>
+
+            <a href="#">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 95.802 95.802" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M38.664,44.689c0,0,9.065-0.673,9.065-11.306c0-10.632-7.417-15.819-16.813-15.819H13.622h-0.508H0v59.414h13.114h0.508
+                  h17.294c0,0,18.873,0.597,18.873-17.536C49.79,59.442,50.613,44.689,38.664,44.689z M13.622,28.125h15.069h2.226
+                  c0,0,4.203,0,4.203,6.181c0,6.181-2.473,7.077-5.275,7.077H13.622V28.125z M30.119,66.42H13.622V50.541h17.294
+                  c0,0,6.264-0.08,6.264,8.16C37.18,65.572,32.599,66.351,30.119,66.42z"/>
+                <rect x="62.18" y="21.064" width="24.514" height="7.317"/>
+                <path d="M74.961,32.682c-22.848,0-22.828,22.826-22.828,22.826s-1.566,22.713,22.829,22.713c0,0,20.331,1.162,20.331-15.801
+                  H84.837c0,0,0.349,6.391-9.526,6.391c0,0-10.455,0.699-10.455-10.34h30.785C95.641,58.471,99.009,32.682,74.961,32.682z
+                  M84.255,50.541H64.738c0,0,1.277-9.158,10.455-9.158C84.372,41.382,84.255,50.541,84.255,50.541z"/>
+              </g>
+            </g>
+            </svg>
+            </a>
+
+            <a href="#">
+              <svg width="24" height="24" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                <path d="M236.02686,128.6425c.00146-.21435.0083-.42773.0083-.64258a107.83375,107.83375,0,0,0-39.77832-83.65918c-.19825-.185-.39209-.373-.60547-.54687-.27246-.22266-.55567-.42432-.84131-.61914A107.83753,107.83753,0,0,0,81.335,30.62834a12.0261,12.0261,0,0,0-1.55517.77149,108.37236,108.37236,0,0,0-57.64991,75.39892c-.00781.03906-.0205.07569-.02783.11475-.00732.03711-.00879.07373-.01562.11133A107.94858,107.94858,0,0,0,63.1167,214.25432a12.011,12.011,0,0,0,1.73,1.28271c.01465.00928.03027.0166.04492.02539a107.84489,107.84489,0,0,0,98.68945,14.42041,12.03933,12.03933,0,0,0,1.30616-.46093,108.18651,108.18651,0,0,0,71.13623-100.59131C236.02441,128.8344,236.02783,128.7382,236.02686,128.6425Zm-24.85791-12.606c-1.04346-.01855-2.08692-.03857-3.12793-.03857a172.46492,172.46492,0,0,0-41.38184,5.0625,170.869,170.869,0,0,0-10.64893-23.67334,172.152,172.152,0,0,0,32.92871-27.147A83.76067,83.76067,0,0,1,211.169,116.03654ZM170.02734,55.29631a148.07,148.07,0,0,1-26.97509,21.88232A173.23488,173.23488,0,0,0,112.479,45.4677a83.56011,83.56011,0,0,1,57.54834,9.82861Zm-84.46045.27393a149.05161,149.05161,0,0,1,35.90235,32.874A147.93161,147.93161,0,0,1,64.041,99.998c-4.99024,0-9.98-.25732-14.9336-.75293A84.45374,84.45374,0,0,1,85.56689,55.57024ZM44.03516,127.99992c0-1.728.06933-3.43945.17236-5.1416A174.137,174.137,0,0,0,64.041,123.998a171.83167,171.83167,0,0,0,70.84668-15.21533,146.83016,146.83016,0,0,1,8.92089,19.64795,170.34091,170.34091,0,0,0-21.5205,10.4375A173.09669,173.09669,0,0,0,68.60791,187.308,83.73587,83.73587,0,0,1,44.03516,127.99992Zm43.76806,73.7168a149.02842,149.02842,0,0,1,46.46631-42.05322,146.20146,146.20146,0,0,1,16.01514-7.9458,148.50545,148.50545,0,0,1,2.67334,27.97461,149.05382,149.05382,0,0,1-2.9292,29.3667,83.79761,83.79761,0,0,1-62.22559-7.34229Zm88.29346-4.88574c.56348-5.6836.86133-11.4043.86133-17.13867a172.48759,172.48759,0,0,0-3.72071-35.542A148.49921,148.49921,0,0,1,208.041,139.998c1.03808,0,2.07812.01709,3.11865.03857A84.07823,84.07823,0,0,1,176.09668,196.831Z"/>
+              </svg>
+            </a>
+
+
+          </div>
+
           <span>© 2024. All rights reserved</span>
 
         </div>
@@ -560,19 +639,10 @@
 
 
 
-    <script src="./assets/javascript/jquery.js" defer></script>
-    <script src="./assets/javascript/jquery-UI.js" defer></script>
-    <script src="./assets/javascript/typed-animation.js" defer></script>
-
-    <script type="text/javascript" defer src="./assets/javascript/email.js"></script>
-    <script type="text/javascript">
-      (function(){
-          emailjs.init({
-            publicKey: "3w_FcyndXVGbDb-MF",
-          });
-      })();
-    </script>
-
-    <script src="./assets/javascript/custom.js" defer></script>
+    <script src="./assets/javascript/jquery.js" async defer></script>
+    <script src="./assets/javascript/jquery-UI.js" async defer></script>
+    <script src="./assets/javascript/typed-animation.js" async defer></script>
+    <script src="./assets/javascript/smoothscroll.js" async defer></script>
+    <script src="./assets/javascript/custom.js" async defer></script>
   </body>
 </html>

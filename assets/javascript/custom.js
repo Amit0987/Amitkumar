@@ -271,55 +271,54 @@ $(function() {
 
 // contact form design
 
-function sendmail(){
+// function sendmail(){
 
 
-var params={
- contactform : document.getElementById('contactfrom'),
- contactname : document.getElementById('name').value,
- contactemailId : document.getElementById('emailId').value,
- contactphonenumber : document.getElementById('phoneNumber').value,
- contactmessageinfo : document.getElementById('messageinfo').value,
-}
+// var params={
+//  contactform : document.getElementById('contactfrom'),
+//  contactname : document.getElementById('name').value,
+//  contactemailId : document.getElementById('emailId').value,
+//  contactphonenumber : document.getElementById('phoneNumber').value,
+//  contactmessageinfo : document.getElementById('messageinfo').value,
+// }
 
-params.contactform.addEventListener('submit', (e) =>{
-  e.preventDefault();
-  Validate();
-})
-
-
+// params.contactform.addEventListener('submit', (e) =>{
+//   e.preventDefault();
+//   Validate();
+// })
 
 
+// function Validate(){
+
+//   const ServiceId= 'service_8q8h2tg'
+//   const templetId = 'template_nhv6ua7'
 
 
-function Validate(){
+//  if(!params.contactmessageinfo =="",!params.contactphonenumber=="",!params.contactemailId =="",!params.contactname==""){
 
-  const ServiceId= 'service_8q8h2tg'
-  const templetId = 'template_nhv6ua7'
-
-
- if(!params.contactmessageinfo =="",!params.contactphonenumber=="",!params.contactemailId =="",!params.contactname==""){
-
-    emailjs.send(ServiceId,templetId,params).then(
-      res=>{
+//     emailjs.send(ServiceId,templetId,params).then(
+//       res=>{
     
-         document.getElementById('name').value = "",
-         document.getElementById('emailId').value = "",
-         document.getElementById('phoneNumber').value = "",
-         document.getElementById('messageinfo').value = "",
-        console.log(res)
-        alert("Form Submitted successfully")
+//          document.getElementById('name').value = "",
+//          document.getElementById('emailId').value = "",
+//          document.getElementById('phoneNumber').value = "",
+//          document.getElementById('messageinfo').value = "",
+//         console.log(res)
+//         alert("Form Submitted successfully")
     
-      }
-    ).catch((err) => console.log(err))
+//       }
+//     ).catch((err) => console.log(err))
 
-  }else{
-    alert('Please Fill all Maindatory Fields')
+//   }else{
+//     alert('Please Fill all Maindatory Fields')
 
-  }
-}
+//   }
+// }
 
-}
+// }
+
+
+
 
 
 
